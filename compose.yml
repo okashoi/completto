@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  php:
+    build: .
+    volumes:
+      - ./src:/usr/src/myapp
+    working_dir: /usr/src/myapp
